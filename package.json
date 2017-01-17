@@ -1,0 +1,12 @@
+{
+    "name": "stylelint-config-gigasavvy",
+    "version": "1.0.0",
+    "description": "Stylelint shareable config for Gigasavvy",
+    "main": "index.js",
+    "repository": "https://github.com/GigaSavvy/stylelint-config-gigasavvy",
+    "author": "Gigasavvy",
+    "license": "MIT",
+    "dependencies": {
+        "assert": "^1.4.1"
+    }
+}
