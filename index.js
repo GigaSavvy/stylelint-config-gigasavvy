@@ -11,7 +11,7 @@ module.exports = {
         'function-max-empty-lines': 0,
         'function-name-case': 'lower',
         'function-parentheses-newline-inside': 'always-multi-line',
-        'function-parentheses-space-inside': 'never',
+        'function-parentheses-space-inside': 'never-single-line',
         'function-whitespace-after': 'always',
 
         'number-leading-zero': 'always',
@@ -21,8 +21,6 @@ module.exports = {
         'string-no-newline': true,
 
         'length-zero-no-unit': true,
-
-        'time-no-imperceptible': true,
 
         'unit-case': 'lower',
 
@@ -93,7 +91,7 @@ module.exports = {
             'ignore': ['after-comment'],
         }],
         'rule-non-nested-empty-line-before': ['always', {
-            'except': ['after-single-line-comment'],
+            ignore: ['after-comment']
         }],
 
         'media-feature-colon-space-after': 'always',
@@ -145,4 +143,4 @@ module.exports = {
         'no-invalid-double-slash-comments': true,
         'no-missing-end-of-source-newline': true,
     }
-}
+};
