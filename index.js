@@ -46,9 +46,6 @@ module.exports = {
         'declaration-colon-space-after': 'always-single-line',
         'declaration-colon-space-before': 'never',
         'declaration-block-no-duplicate-properties': true,
-        'declaration-block-no-ignored-properties': [true, {
-            'severity': 'warning',
-        }],
         'declaration-block-no-redundant-longhand-properties': true,
         'declaration-block-no-shorthand-property-overrides': true,
         'declaration-block-semicolon-newline-after': 'always',
@@ -61,7 +58,6 @@ module.exports = {
         'block-closing-brace-empty-line-before': 'never',
         'block-closing-brace-newline-after': 'always',
         'block-closing-brace-newline-before': 'always',
-        'block-no-single-line': true,
         'block-opening-brace-newline-after': 'always',
         'block-opening-brace-space-before': 'always',
 
@@ -86,18 +82,14 @@ module.exports = {
         'selector-list-comma-space-after': 'always-single-line',
         'selector-list-comma-space-before': 'never',
 
-        'rule-nested-empty-line-before': ['always', {
+        'rule-empty-line-before': ['always', {
             'except': ['first-nested'],
             'ignore': ['after-comment'],
-        }],
-        'rule-non-nested-empty-line-before': ['always', {
-            ignore: ['after-comment']
         }],
 
         'media-feature-colon-space-after': 'always',
         'media-feature-colon-space-before': 'never',
         'media-feature-name-case': 'lower',
-        'media-feature-no-missing-punctuation': true,
         'media-feature-parentheses-space-inside': 'never',
         'media-feature-range-operator-space-after': 'always',
         'media-feature-range-operator-space-before': 'always',
@@ -110,7 +102,7 @@ module.exports = {
         'at-rule-empty-line-before': ['always', {
             'except': [
                 'blockless-after-same-name-blockless',
-                'blockless-group',
+                'blockless-after-blockless',
                 'first-nested',
             ],
             'ignore': ['after-comment'],
@@ -119,11 +111,9 @@ module.exports = {
         'at-rule-name-space-after': 'always-single-line',
         'at-rule-semicolon-newline-after': 'always',
 
-        'stylelint-disable-reason': 'always-before',
-
         'comment-empty-line-before': ['always', {
             'except': ['first-nested'],
-            'ignore': ['between-comments'],
+            'ignore': ['after-comment'],
         }],
         'comment-no-empty': true,
         'comment-whitespace-inside': 'always',
