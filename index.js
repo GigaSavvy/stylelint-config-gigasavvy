@@ -119,7 +119,7 @@ module.exports = {
         'comment-whitespace-inside': 'always',
         'comment-word-blacklist': ['kakorrhaphiophobia'],
 
-        'indentation': 4,
+        'indentation': 2,
         'max-empty-lines': 1,
         'max-line-length': [80, {
             'severity' : 'warning',
