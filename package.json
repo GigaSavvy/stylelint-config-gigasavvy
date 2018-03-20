@@ -1,6 +1,6 @@
 {
     "name": "stylelint-config-gigasavvy",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Stylelint shareable config for Gigasavvy",
     "main": "index.js",
     "repository": "https://github.com/GigaSavvy/stylelint-config-gigasavvy",
